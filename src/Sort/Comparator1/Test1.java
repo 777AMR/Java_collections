@@ -1,11 +1,11 @@
-package Sort;
+package Sort.Comparator1;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Test {
+public class Test1 {
     public static void main(String[] args) {
         //1.
         List<String> animals = new ArrayList<>();
@@ -37,10 +37,10 @@ public class Test {
         });
         System.out.println(numbers);
         //3.
-        List<Person> people = new ArrayList<>();
-        people.add(new Person(1, "Bob"));
-        people.add(new Person(3, "Tom"));
-        people.add(new Person(2, "Mike"));
+        List<Person2> people = new ArrayList<>();
+        people.add(new Person2(1, "Bob"));
+        people.add(new Person2(3, "Tom"));
+        people.add(new Person2(2, "Mike"));
 
 
         Collections.sort(people, (o1, o2) -> {
@@ -72,11 +72,11 @@ class StringLengthComparator implements Comparator<String> {
     }
 }
 
-class Person {
+class Person2 {
     private int id;
     private String Name;
 
-    public Person(int id, String name) {
+    public Person2(int id, String name) {
         this.id = id;
         Name = name;
     }
