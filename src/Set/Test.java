@@ -5,6 +5,8 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
         Map<Person, String> map = new HashMap<>();
+        //Set - Множество
+        //Только уникальные элементы
         Set<Person> set = new HashSet<>();
 
         Person p1 = new Person(1, "Mike");

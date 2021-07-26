@@ -32,6 +32,8 @@ public class MyLinkedList {
                 currentIndex++;
             }
         }
+        // [1] -> [2] -> [3]
+
         throw new IllegalArgumentException();
     }
 
@@ -55,9 +57,9 @@ public class MyLinkedList {
                 currentIndex++;
             }
         }
-
     }
 
+    @Override
     public String toString() {
         int[] result = new int[size];
         int idx = 0;
@@ -68,6 +70,8 @@ public class MyLinkedList {
             temp = temp.getNext();
             idx++;
         }
+        // [1] -> [2] -> [3]
+
         return Arrays.toString(result);
     }
 

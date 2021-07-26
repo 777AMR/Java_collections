@@ -7,11 +7,13 @@ import java.util.List;
 public class LinkedList1 {
     public static void main(String[] args) {
         List<Integer> linkedList = new LinkedList<>();
+        // head -> [1|] -> [2|] -> [3|] -> [4|] -> null    spisok
 //        linkedList.add(1);
 //        linkedList.get(0);
 //        linkedList.size();
 //        linkedList.remove(0);
         List<Integer> arrayList = new ArrayList<>();
+        // [1][2][3][4][5][6][7][8] massiv
 
         measureTime(linkedList);
         measureTime(arrayList);

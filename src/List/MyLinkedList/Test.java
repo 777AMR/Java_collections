@@ -8,9 +8,9 @@ public class Test {
         myLinkedList.add(10);
 
         System.out.println(myLinkedList);
-        System.out.println(myLinkedList.get(0));
-        System.out.println(myLinkedList.get(1));
-        System.out.println(myLinkedList.get(2));
+        System.out.println("Get [0]: " + myLinkedList.get(0));
+        System.out.println("Get [1]: " + myLinkedList.get(1));
+        System.out.println("Get [2]: " + myLinkedList.get(2));
 
         myLinkedList.remove(1);
         System.out.println(myLinkedList);

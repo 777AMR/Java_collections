@@ -27,17 +27,17 @@ public class AllSet {
         // union - объединение множеств
         Set<Integer> union = new HashSet<>(hashSet);
         union.addAll(hashSet2);
-        System.out.println(union);
+        System.out.println("union: " + union);
 
         //intersection - пересечение множеств
         Set<Integer> intersection = new HashSet<>(hashSet);
         intersection.retainAll(hashSet2);
-        System.out.println(intersection);
+        System.out.println("intersection: " + intersection);
 
         //difference - разность множеств
         Set<Integer> difference = new HashSet<>(hashSet);
         difference.removeAll(hashSet2);
-        System.out.println(difference);
+        System.out.println("difference: " + difference);
 
 
 //        Set<String> hashSet = new HashSet<>();
